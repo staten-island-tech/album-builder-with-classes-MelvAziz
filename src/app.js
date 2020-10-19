@@ -36,6 +36,7 @@ document.querySelector("form").addEventListener("submit", function(e) {
     //instantiate or get new instance of Album
     const album = new Album(title, artist, url);
     const ui = new UI();
-    ui.addAlbumToList(album);
+    ui.displayAlbum(album);
+    ui.clearFields();
 
 })

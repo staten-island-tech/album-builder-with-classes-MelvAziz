@@ -1,3 +1,4 @@
+
 //Create Album Class
 //constructor for Album
 
@@ -38,5 +39,4 @@ document.querySelector("form").addEventListener("submit", function(e) {
     const ui = new UI();
     ui.displayAlbum(album);
     ui.clearFields();
-
 })
